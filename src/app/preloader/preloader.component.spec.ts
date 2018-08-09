@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MatRaisedButtonComponent } from './mat-raised-button.component';
+import { PreloaderComponent } from './preloader.component';
 
-describe('MatRaisedButtonComponent', () => {
-  let component: MatRaisedButtonComponent;
-  let fixture: ComponentFixture<MatRaisedButtonComponent>;
+describe('PreloaderComponent', () => {
+  let component: PreloaderComponent;
+  let fixture: ComponentFixture<PreloaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MatRaisedButtonComponent ]
+      declarations: [ PreloaderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MatRaisedButtonComponent);
+    fixture = TestBed.createComponent(PreloaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

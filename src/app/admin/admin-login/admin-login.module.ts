@@ -12,4 +12,4 @@ import { AdminLoginRoutingModule } from './admin-login-routing.module';
   ],
   declarations: [AdminLoginComponent]
 })
-export class AdminLoginModule { }
+export class AdminLoginModule {}
